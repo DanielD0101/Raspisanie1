@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календарь дежурств</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Новогоднее оформление слева -->
+    <div class="decoration left-decoration">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="ornament">🎄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1>График дежурств</h1>
+            <div class="current-date" id="currentDate"></div>
+        </header>
+        
+        <main class="calendar-container">
+            <div class="calendar-grid" id="calendarGrid">
+                <!-- Календарь будет генерироваться JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Новогоднее оформление справа -->
+    <div class="decoration right-decoration">
+        <div class="ornament">🎄</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+    </div>
+
+    <script src="js/data.js?v=1.2"></script>
+<script src="js/main.js?v=1.2"></script>
+
+</body>
+</html>
